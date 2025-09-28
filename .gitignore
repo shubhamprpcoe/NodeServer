@@ -1,0 +1,21 @@
+node_modules
+logs
+dist
+
+# dependencies
+/node_modules
+/logs
+/dist
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+# Keep environment variables out of version control
+.env
+
+/src/generated/prisma
+
+/src/generated/prisma
